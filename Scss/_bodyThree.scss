@@ -6,9 +6,6 @@
   align-items: center;
   text-align: center;
 
-  p {
-    font-size: clamp(0.6rem, 1vw, 1.6rem);
-  }
   h3 {
     font-size: clamp(0.8rem, 1.5vw, 2rem);
   }
@@ -26,6 +23,8 @@
     background: transparent;
     padding: 5px 15px;
     border: 2px solid gray;
+    color: gray;
+    font-size: clamp(0.6rem, 1vw, 1.6rem);
   }
   p {
     color: gray;

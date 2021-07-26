@@ -11,7 +11,7 @@
 @media only screen and (max-width: 700px) {
   .body__section_three {
     .body__section_three_img_one .wrapper .item_one {
-      bottom: 10%;
+      bottom: 14%;
       left: -36px;
       font-size: 30px;
     }
@@ -24,12 +24,22 @@
       font-size: 21px;
     }
     .body__section_three_img_three .wrapper .item_three {
-      bottom: 20%;
+      bottom: 18.6%;
       right: -13%;
       font-size: 21px;
     }
   }
   .header__ h1{
     display: none;
+  }
+  .body__section_five .wrapper .add{
+    width: 35px;
+    height: 25px;
+    bottom: 140px;
+    right: 3px;
+  }
+
+  .body__section_six .wrapper .info{
+    left: 27%;
   }
 }

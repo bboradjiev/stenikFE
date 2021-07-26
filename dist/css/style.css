@@ -115,11 +115,13 @@
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   color: white;
+  line-height: 20 px;
   font-size: clamp(0.6rem, 1vw, 1.6rem);
 }
 
 .header__ .forth_section h3 .banner {
   padding: 6px 15px;
+  font-size: clamp(0.6rem, 1vw, 1.6rem);
   background: #333333;
   font-weight: normal;
 }
@@ -219,10 +221,6 @@
   text-align: center;
 }
 
-.body__section_three p {
-  font-size: clamp(0.6rem, 1vw, 1.6rem);
-}
-
 .body__section_three h3 {
   font-size: clamp(0.8rem, 1.5vw, 2rem);
 }
@@ -242,6 +240,8 @@
   background: transparent;
   padding: 5px 15px;
   border: 2px solid gray;
+  color: gray;
+  font-size: clamp(0.6rem, 1vw, 1.6rem);
 }
 
 .body__section_three p {
@@ -412,12 +412,14 @@
 
 .body__section_six .button_one {
   padding: 5px 10px;
+  font-size: clamp(0.6rem, 1vw, 1.6rem);
 }
 
 .body__section_six .button_two {
   color: white;
   background: transparent;
   border: none;
+  font-size: clamp(0.6rem, 1vw, 1.6rem);
 }
 
 .body__section_six .wrapper {
@@ -439,10 +441,6 @@
   -o-object-position: bottom;
      object-position: bottom;
   padding: 0 5px;
-}
-
-.body__section_six p {
-  font-size: clamp(0.6rem, 1vw, 1.6rem);
 }
 
 .body__section_six h3 {
@@ -555,7 +553,7 @@
 
 @media only screen and (max-width: 700px) {
   .body__section_three .body__section_three_img_one .wrapper .item_one {
-    bottom: 10%;
+    bottom: 14%;
     left: -36px;
     font-size: 30px;
   }
@@ -566,12 +564,21 @@
     font-size: 21px;
   }
   .body__section_three .body__section_three_img_three .wrapper .item_three {
-    bottom: 20%;
+    bottom: 18.6%;
     right: -13%;
     font-size: 21px;
   }
   .header__ h1 {
     display: none;
+  }
+  .body__section_five .wrapper .add {
+    width: 35px;
+    height: 25px;
+    bottom: 140px;
+    right: 3px;
+  }
+  .body__section_six .wrapper .info {
+    left: 27%;
   }
 }
 
