@@ -1,0 +1,26 @@
+.body__section_four {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin-top: 25px;
+  .wrapper {
+    position: relative;
+    div {
+      position: absolute;
+      bottom: 0%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      text-align: center;
+    }
+  }
+
+  img {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 0 5px;
+  }
+}

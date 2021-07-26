@@ -1,0 +1,32 @@
+.body__section_one {
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  button {
+    background-color: #ffffff;
+    color: #393939;
+    font-weight: bold;
+    padding: 2% 5%;
+    font-size: clamp(0.6rem, 1vw, 1.6rem);
+  }
+  h3 {
+    font-size: clamp(1rem, 3.5vw, 4rem);
+  }
+  p {
+    font-size: clamp(0.6rem, 1vw, 1.6rem);
+  }
+}

@@ -1,0 +1,58 @@
+.footer {
+  margin: 45px 0;
+  .text {
+    padding: 1% 9%;
+  }
+  .information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1% 9%;
+    border-top: 1px solid rgba(214, 210, 210, 0.3);
+    border-bottom: 1px solid rgba(214, 210, 210, 0.3);
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    span {
+      padding: 0 5px;
+    }
+  }
+  p {
+    margin: 20px 0;
+    color: gray;
+    font-size: clamp(0.9rem, 0.8vw, 1.6rem);
+  }
+
+  .about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1% 9%;
+    h6,
+    p {
+      font-size: 10px;
+      padding: 2px;
+      margin: 0;
+    }
+    button{
+         padding: 3px 30px;
+         background: transparent;
+         border: 1px solid black;
+    }
+  }
+  .rights{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 9%;
+    p{
+        margin: 0;
+    }
+  }
+
+}

@@ -1,0 +1,46 @@
+.body__section_five {
+  text-align: center;
+  margin-top: 25px;
+
+  .glide__arrow {
+    top: 36%;
+    border: none;
+    box-shadow: none;
+  }
+  .glide__arrow--left {
+    left: 0;
+  }
+  .glide__arrow--right {
+    right: 0;
+  }
+
+  .slider_section {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+  }
+  .wrapper {
+    position: relative;
+    .add {
+      position: absolute;
+      width: 45px;
+      height: 35px;
+      bottom: 33%;
+      right: 4%;
+    }
+  }
+  img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 0 5px;
+  }
+  span {
+    color: gray;
+  }
+  h4 {
+    font-size: clamp(0.6rem, 1vw, 1.6rem);
+  }
+}

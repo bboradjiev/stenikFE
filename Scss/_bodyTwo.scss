@@ -1,0 +1,30 @@
+.body__section_two {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-grow: 1;
+  margin-top: 40px;
+  text-align: center;
+
+  .container {
+    position: relative;
+  }
+
+  img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+  }
+  p {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+}
+
+

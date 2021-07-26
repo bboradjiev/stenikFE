@@ -1,0 +1,43 @@
+@import "./Scss/header";
+@import "./Scss/bodyOne";
+@import "./Scss/bodyTwo";
+@import "./Scss/bodyThree";
+@import "./Scss/bodyFour";
+@import "./Scss/bodyFive";
+@import "./Scss/bodySix";
+@import "./Scss/footer";
+@import "./Scss/mediaQery";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+
+}
+
+h1,
+h3,
+p {
+  margin: 0;
+}
+
+a, button{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.body__section_one,
+.body__section_two,
+.body__section_three,
+.body__section_four,
+.body__section_five,
+.body__section_six{
+  padding: 0 9%;
+}
+

@@ -1,0 +1,44 @@
+.body__section_six {
+  text-align: center;
+  margin-top: 25px;
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin-top: 25px;
+  }
+
+  .button_one {
+    padding: 5px 10px;
+  }
+  .button_two {
+    color: white;
+    background: transparent;
+    border: none;
+  }
+
+  .wrapper {
+    position: relative;
+
+    .info {
+      position: absolute;
+      bottom: 4%;
+      left: 37%;
+      color: white;
+    }
+  }
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: bottom;
+    padding: 0 5px;
+  }
+
+  p {
+    font-size: clamp(0.6rem, 1vw, 1.6rem);
+  }
+  h3 {
+    font-size: clamp(0.8rem, 1.5vw, 2rem);
+  }
+}
