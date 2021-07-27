@@ -12,11 +12,12 @@
   
   img {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     height: auto;
     object-fit: cover;
     object-position: bottom;
     margin: 10px auto;
+    padding: 0 5px;
   }
 
   button {
@@ -33,6 +34,7 @@
   .body__section_three_img_one {
     .wrapper {
       position: relative;
+
       .item_one {
         position: absolute;
         bottom: 15%;
