@@ -261,7 +261,8 @@
   color: white;
   -webkit-transform: rotate(-90deg);
           transform: rotate(-90deg);
-  font-size: 45px;
+  width: 44%;
+  font-size: clamp(1rem, 10vw, 2rem);
 }
 
 .body__section_three .body__section_three_img_two .wrapper {
@@ -270,11 +271,14 @@
 
 .body__section_three .body__section_three_img_two .wrapper .item_two {
   position: absolute;
-  bottom: 4%;
-  left: 23%;
+  bottom: 2%;
+  left: 50px;
   background-color: black;
   color: white;
-  font-size: 29px;
+  font-size: clamp(1rem, 10vw, 2rem);
+  letter-spacing: 3px;
+  width: 80%;
+  text-align: center;
 }
 
 .body__section_three .body__section_three_img_three .wrapper {
@@ -283,13 +287,14 @@
 
 .body__section_three .body__section_three_img_three .wrapper .item_three {
   position: absolute;
-  bottom: 18%;
-  right: -14%;
+  bottom: 24%;
+  right: -24.3%;
   -webkit-transform: rotate(90deg);
           transform: rotate(90deg);
   background-color: black;
+  width: 65%;
   color: white;
-  font-size: 29px;
+  font-size: clamp(1rem, 7vw, 2rem);
 }
 
 .body__section_four {
@@ -562,6 +567,7 @@
 
 @media only screen and (max-width: 500px) {
   .body__section_three .body__section_three_img_two .wrapper .item_two {
+    left: 28px;
     font-size: 21px;
   }
   .body__section_three .body__section_three_img_three .wrapper .item_three {

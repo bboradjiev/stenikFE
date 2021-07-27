@@ -9,7 +9,7 @@
   h3 {
     font-size: clamp(0.8rem, 1.5vw, 2rem);
   }
-  
+
   img {
     width: 100%;
     max-width: 500px;
@@ -42,7 +42,8 @@
         background-color: black;
         color: white;
         transform: rotate(-90deg);
-        font-size: 45px;
+        width: 44%;
+        font-size: clamp(1rem, 10vw, 2rem);
       }
     }
   }
@@ -52,11 +53,14 @@
       position: relative;
       .item_two {
         position: absolute;
-        bottom: 4%;
-        left: 23%;
+        bottom: 2%;
+        left: 50px;
         background-color: black;
         color: white;
-        font-size: 29px;
+        font-size: clamp(1rem, 10vw, 2rem);
+        letter-spacing: 3px;
+        width: 80%;
+        text-align: center;
       }
     }
   }
@@ -66,12 +70,13 @@
       position: relative;
       .item_three {
         position: absolute;
-        bottom: 18%;
-        right: -14%;
+        bottom: 24%;
+        right: -24.3%;
         transform: rotate(90deg);
         background-color: black;
+        width: 65%;
         color: white;
-        font-size: 29px;
+        font-size: clamp(1rem, 7vw, 2rem);
       }
     }
   }
